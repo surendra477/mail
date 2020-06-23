@@ -1,6 +1,6 @@
-//first of all to run this u should allow your mail to less secure app access in google
+//first of all to run this u should allow your mail to less secure access in below given google
 //link of it is https://myaccount.google.com/lesssecureapps
-//you should install npm install nodemailer
+//you should install  npm init ,npm express, npm install nodemailer
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
@@ -13,7 +13,7 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
     from: 'yourmail@gmail.com',//your mail
-    to: 'friendmail@gmail.com',//your password u can send to multiple by using , and another mail
+    to: 'friendmail@gmail.com',// u can send to multiple by using (,) and adding another mail
     subject: 'Sending Email using Node.js',
     text: 'That was easy!'
 };
